@@ -12,7 +12,7 @@ function App() {
   const [message, setMessage] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  const API_BASE_URL = "http://localhost:3000"; // Backend URL
+  const API_BASE_URL = "https://cactro-youtube.onrender.com/"; // Backend URL
 
   // Set Axios to send cookies with requests
   axios.defaults.withCredentials = true;

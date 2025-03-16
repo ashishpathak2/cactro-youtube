@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 
 // CORS configuration
 app.use(cors({
-  origin: 'http://localhost:5173', // Explicitly allow your frontend origin
+  origin: 'https://cactro-youtube.vercel.app/', // Explicitly allow your frontend origin
   credentials: true, // Allow cookies/session to be sent
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
