@@ -44,7 +44,7 @@ router.get('/callback', async (req, res) => {
     console.log('User authenticated:', user.googleId);
 
     // Redirect to frontend after successful authentication
-    res.redirect('https://cactro-youtube.vercel.app'); // Adjust to your frontend URL
+    res.redirect('https://cactro-youtube.onrender.com'); // Adjust to your frontend URL
   } catch (error) {
     console.error('OAuth Error:', error.message);
     res.status(500).json({ error: 'Authentication failed', details: error.message });
